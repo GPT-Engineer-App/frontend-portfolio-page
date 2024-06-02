@@ -39,6 +39,29 @@ const Index = () => {
           </Heading>
           <Text maxW="600px">I am a passionate frontend developer with a strong foundation in HTML and CSS. I enjoy creating beautiful and functional web interfaces that provide a great user experience. I am always eager to learn new technologies and improve my skills.</Text>
         </Box>
+        <Box textAlign="center">
+          <Heading as="h2" size="md" mb={4}>
+            Pricing
+          </Heading>
+          <HStack spacing={8} justify="center">
+            <Box borderWidth="1px" borderRadius="lg" overflow="hidden" p={5} maxW="sm">
+              <Heading as="h3" size="lg" mb={4}>
+                Basic Plan
+              </Heading>
+              <Text fontSize="2xl" color="gray.700">
+                100 Euros
+              </Text>
+            </Box>
+            <Box borderWidth="1px" borderRadius="lg" overflow="hidden" p={5} maxW="sm">
+              <Heading as="h3" size="lg" mb={4}>
+                Premium Plan
+              </Heading>
+              <Text fontSize="2xl" color="gray.700">
+                150 Euros
+              </Text>
+            </Box>
+          </HStack>
+        </Box>
       </VStack>
       <Footer />
     </Container>
