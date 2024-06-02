@@ -1,5 +1,6 @@
 import { Container, VStack, HStack, Box, Text, Heading, IconButton, Image, Tag } from "@chakra-ui/react";
 import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
+import Footer from "../components/Footer.jsx";
 
 const Index = () => {
   return (
@@ -39,6 +40,7 @@ const Index = () => {
           <Text maxW="600px">I am a passionate frontend developer with a strong foundation in HTML and CSS. I enjoy creating beautiful and functional web interfaces that provide a great user experience. I am always eager to learn new technologies and improve my skills.</Text>
         </Box>
       </VStack>
+      <Footer />
     </Container>
   );
 };
